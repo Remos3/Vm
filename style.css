@@ -582,4 +582,18 @@ p {
         opacity: 1 !important; transform: none !important;
     }
     .hero-bg, .search-bar-mockup::before { animation: none !important; }
-                              }
+                        
+}
+/* Mobile ke liye extra side gap kam karne ka fix */
+@media (max-width: 768px) {
+    .section { padding: 4rem 0 !important; }
+    .container { padding: 0 1.5rem !important; }
+}
+
+@media (max-width: 600px) {
+    .section { padding: 3.5rem 0 !important; }
+    .container { padding: 0 1rem !important; }
+    .nav-container { padding: 0 1rem !important; }
+    .hero-content { padding: 0 1rem !important; }
+}
+
